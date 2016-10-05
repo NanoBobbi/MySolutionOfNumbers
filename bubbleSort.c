@@ -70,7 +70,7 @@ int main(int argc, char const *argv[])
 	printf("Please input the length of the array\n");
 	scanf("%d",&length);
 	init(array,length);
-e
+
 	assign(array,length);
 	printf("The array has sorted ascendingly as followed!\n");
 	bubbleSort(array,length);
